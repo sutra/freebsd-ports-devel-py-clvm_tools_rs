@@ -1,5 +1,5 @@
 PORTNAME=	clvm_tools_rs
-PORTVERSION=	0.1.11
+PORTVERSION=	0.1.12
 CATEGORIES=	devel python
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
@@ -21,7 +21,7 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		bitvec-0.22.3 \
 		block-buffer-0.9.0 \
 		bls12_381-0.5.0 \
-		bumpalo-3.9.1 \
+		bumpalo-3.10.0 \
 		byteorder-1.4.3 \
 		bytestream-0.4.1 \
 		cc-1.0.73 \
@@ -64,12 +64,12 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		num-rational-0.2.4 \
 		num-rational-0.4.0 \
 		num-traits-0.2.15 \
-		once_cell-1.10.0 \
+		once_cell-1.12.0 \
 		opaque-debug-0.3.0 \
 		openssl-0.10.40 \
 		openssl-macros-0.1.0 \
-		openssl-src-111.18.0+1.1.1n \
-		openssl-sys-0.9.73 \
+		openssl-src-111.20.0+1.1.1o \
+		openssl-sys-0.9.74 \
 		pairing-0.20.0 \
 		parking_lot-0.11.2 \
 		parking_lot_core-0.8.5 \
@@ -96,7 +96,7 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		sha2-0.9.9 \
 		smallvec-1.8.0 \
 		subtle-2.4.1 \
-		syn-1.0.95 \
+		syn-1.0.96 \
 		tap-1.0.1 \
 		tempfile-3.3.0 \
 		time-0.1.43 \
@@ -122,7 +122,7 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		wyz-0.4.0 \
 		yamlette-0.0.8 \
 		skimmer@git+https://github.com/dnsl48/skimmer?rev=ca914ef624ecf39a75ed7afef10e7838fffe9127\#ca914ef624ecf39a75ed7afef10e7838fffe9127 \
-		clvm_rust@git+https://github.com/prozacchiwawa/clvm_rs?branch=20211029-try-config\#b9f9c3345243ab1d5968fd16f4a3599d0ec43699
+		clvm_rust@git+https://github.com/prozacchiwawa/clvm_rs?rev=b9f9c3345243ab1d5968fd16f4a3599d0ec43699\#b9f9c3345243ab1d5968fd16f4a3599d0ec43699
 
 CARGO_BUILD=	no
 CARGO_INSTALL=	no

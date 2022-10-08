@@ -1,5 +1,5 @@
 PORTNAME=	clvm_tools_rs
-PORTVERSION=	0.1.17
+PORTVERSION=	0.1.18
 CATEGORIES=	devel python
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
@@ -17,6 +17,7 @@ GH_ACCOUNT=	Chia-Network
 
 CARGO_CRATES=	autocfg-1.1.0 \
 		base91-0.0.1 \
+		binascii-0.1.4 \
 		bitflags-1.3.2 \
 		bitvec-0.22.3 \
 		block-buffer-0.9.0 \

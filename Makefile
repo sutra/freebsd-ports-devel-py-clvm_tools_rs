@@ -1,5 +1,5 @@
 PORTNAME=	clvm_tools_rs
-PORTVERSION=	0.1.12
+PORTVERSION=	0.1.13
 CATEGORIES=	devel python
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
@@ -24,23 +24,20 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		bumpalo-3.10.0 \
 		byteorder-1.4.3 \
 		bytestream-0.4.1 \
-		cc-1.0.73 \
 		cfg-if-1.0.0 \
 		chrono-0.4.19 \
 		console_error_panic_hook-0.1.7 \
-		cpufeatures-0.2.2 \
+		cpufeatures-0.1.5 \
 		derivative-2.2.0 \
 		digest-0.9.0 \
 		do-notation-0.1.3 \
 		encoding8-0.3.2 \
 		fastrand-1.7.0 \
 		ff-0.10.1 \
-		foreign-types-0.3.2 \
-		foreign-types-shared-0.1.1 \
 		fraction-0.6.3 \
 		funty-1.2.0 \
 		generic-array-0.14.5 \
-		getrandom-0.2.6 \
+		getrandom-0.2.7 \
 		group-0.10.0 \
 		hex-0.4.3 \
 		indoc-0.3.6 \
@@ -48,7 +45,7 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		indoc-impl-0.3.6 \
 		instant-0.1.12 \
 		itoa-1.0.2 \
-		js-sys-0.3.57 \
+		js-sys-0.3.58 \
 		lazy_static-1.4.0 \
 		libc-0.2.126 \
 		lock_api-0.4.7 \
@@ -56,26 +53,21 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		num-0.2.1 \
 		num-0.4.0 \
 		num-bigint-0.2.6 \
-		num-bigint-0.4.3 \
+		num-bigint-0.4.0 \
 		num-complex-0.2.4 \
 		num-complex-0.4.1 \
-		num-integer-0.1.45 \
+		num-integer-0.1.44 \
 		num-iter-0.1.43 \
 		num-rational-0.2.4 \
 		num-rational-0.4.0 \
-		num-traits-0.2.15 \
+		num-traits-0.2.14 \
 		once_cell-1.12.0 \
 		opaque-debug-0.3.0 \
-		openssl-0.10.40 \
-		openssl-macros-0.1.0 \
-		openssl-src-111.20.0+1.1.1o \
-		openssl-sys-0.9.74 \
 		pairing-0.20.0 \
 		parking_lot-0.11.2 \
 		parking_lot_core-0.8.5 \
 		paste-0.1.18 \
 		paste-impl-0.1.18 \
-		pkg-config-0.3.25 \
 		proc-macro-hack-0.5.19 \
 		proc-macro2-1.0.39 \
 		pyo3-0.14.5 \
@@ -93,36 +85,36 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		scopeguard-1.1.0 \
 		serde-1.0.137 \
 		serde_json-1.0.81 \
-		sha2-0.9.9 \
+		sha2-0.9.5 \
 		smallvec-1.8.0 \
 		subtle-2.4.1 \
 		syn-1.0.96 \
 		tap-1.0.1 \
 		tempfile-3.3.0 \
-		time-0.1.43 \
+		time-0.1.44 \
 		typenum-1.15.0 \
-		unicode-ident-1.0.0 \
+		unicode-ident-1.0.1 \
 		unicode-segmentation-1.9.0 \
 		unindent-0.1.9 \
-		vcpkg-0.2.15 \
 		version_check-0.9.4 \
-		wasi-0.10.2+wasi-snapshot-preview1 \
-		wasm-bindgen-0.2.80 \
-		wasm-bindgen-backend-0.2.80 \
-		wasm-bindgen-futures-0.4.30 \
-		wasm-bindgen-macro-0.2.80 \
-		wasm-bindgen-macro-support-0.2.80 \
-		wasm-bindgen-shared-0.2.80 \
-		wasm-bindgen-test-0.3.30 \
-		wasm-bindgen-test-macro-0.3.30 \
-		web-sys-0.3.57 \
+		wasi-0.10.0+wasi-snapshot-preview1 \
+		wasi-0.11.0+wasi-snapshot-preview1 \
+		wasm-bindgen-0.2.81 \
+		wasm-bindgen-backend-0.2.81 \
+		wasm-bindgen-futures-0.4.25 \
+		wasm-bindgen-macro-0.2.81 \
+		wasm-bindgen-macro-support-0.2.81 \
+		wasm-bindgen-shared-0.2.81 \
+		wasm-bindgen-test-0.3.25 \
+		wasm-bindgen-test-macro-0.3.25 \
+		web-sys-0.3.52 \
 		winapi-0.3.9 \
 		winapi-i686-pc-windows-gnu-0.4.0 \
 		winapi-x86_64-pc-windows-gnu-0.4.0 \
 		wyz-0.4.0 \
 		yamlette-0.0.8 \
-		skimmer@git+https://github.com/dnsl48/skimmer?rev=ca914ef624ecf39a75ed7afef10e7838fffe9127\#ca914ef624ecf39a75ed7afef10e7838fffe9127 \
-		clvm_rust@git+https://github.com/prozacchiwawa/clvm_rs?rev=b9f9c3345243ab1d5968fd16f4a3599d0ec43699\#b9f9c3345243ab1d5968fd16f4a3599d0ec43699
+		clvmr@git+https://github.com/Chia-Network/clvm_rs?rev=519e7d8bbc490aa9e60514f844f9ccd7af6d8dd2\#519e7d8bbc490aa9e60514f844f9ccd7af6d8dd2 \
+		skimmer@git+https://github.com/dnsl48/skimmer?rev=ca914ef624ecf39a75ed7afef10e7838fffe9127\#ca914ef624ecf39a75ed7afef10e7838fffe9127
 
 CARGO_BUILD=	no
 CARGO_INSTALL=	no

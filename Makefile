@@ -1,5 +1,5 @@
 PORTNAME=	clvm_tools_rs
-PORTVERSION=	0.1.13
+PORTVERSION=	0.1.14
 CATEGORIES=	devel python
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
@@ -26,6 +26,7 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		bytestream-0.4.1 \
 		cfg-if-1.0.0 \
 		chrono-0.4.19 \
+		clvmr-0.1.21 \
 		console_error_panic_hook-0.1.7 \
 		cpufeatures-0.1.5 \
 		derivative-2.2.0 \
@@ -113,7 +114,6 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		winapi-x86_64-pc-windows-gnu-0.4.0 \
 		wyz-0.4.0 \
 		yamlette-0.0.8 \
-		clvmr@git+https://github.com/Chia-Network/clvm_rs?rev=519e7d8bbc490aa9e60514f844f9ccd7af6d8dd2\#519e7d8bbc490aa9e60514f844f9ccd7af6d8dd2 \
 		skimmer@git+https://github.com/dnsl48/skimmer?rev=ca914ef624ecf39a75ed7afef10e7838fffe9127\#ca914ef624ecf39a75ed7afef10e7838fffe9127
 
 CARGO_BUILD=	no

@@ -1,5 +1,5 @@
 PORTNAME=	clvm_tools_rs
-PORTVERSION=	0.1.23
+PORTVERSION=	0.1.24
 CATEGORIES=	devel python
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
@@ -16,7 +16,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	Chia-Network
 
 CARGO_CRATES=	autocfg-1.1.0 \
-		base91-0.0.1 \
 		binascii-0.1.4 \
 		bitflags-1.3.2 \
 		bitvec-0.22.3 \
@@ -26,7 +25,6 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		byteorder-1.4.3 \
 		bytestream-0.4.1 \
 		cfg-if-1.0.0 \
-		chrono-0.4.19 \
 		clvmr-0.1.21 \
 		console_error_panic_hook-0.1.7 \
 		cpufeatures-0.1.5 \
@@ -36,7 +34,6 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		encoding8-0.3.2 \
 		fastrand-1.7.0 \
 		ff-0.10.1 \
-		fraction-0.6.3 \
 		funty-1.2.0 \
 		generic-array-0.14.5 \
 		getrandom-0.2.7 \
@@ -50,17 +47,14 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		js-sys-0.3.58 \
 		lazy_static-1.4.0 \
 		libc-0.2.126 \
+		linked-hash-map-0.5.6 \
 		lock_api-0.4.7 \
 		log-0.4.17 \
-		num-0.2.1 \
 		num-0.4.0 \
-		num-bigint-0.2.6 \
 		num-bigint-0.4.0 \
-		num-complex-0.2.4 \
 		num-complex-0.4.1 \
 		num-integer-0.1.44 \
 		num-iter-0.1.43 \
-		num-rational-0.2.4 \
 		num-rational-0.4.0 \
 		num-traits-0.2.14 \
 		once_cell-1.12.0 \
@@ -93,13 +87,11 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		syn-1.0.96 \
 		tap-1.0.1 \
 		tempfile-3.3.0 \
-		time-0.1.44 \
 		typenum-1.15.0 \
 		unicode-ident-1.0.1 \
 		unicode-segmentation-1.9.0 \
 		unindent-0.1.9 \
 		version_check-0.9.4 \
-		wasi-0.10.0+wasi-snapshot-preview1 \
 		wasi-0.11.0+wasi-snapshot-preview1 \
 		wasm-bindgen-0.2.81 \
 		wasm-bindgen-backend-0.2.81 \
@@ -114,8 +106,7 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		winapi-i686-pc-windows-gnu-0.4.0 \
 		winapi-x86_64-pc-windows-gnu-0.4.0 \
 		wyz-0.4.0 \
-		yamlette-0.0.8 \
-		skimmer@git+https://github.com/dnsl48/skimmer?rev=ca914ef624ecf39a75ed7afef10e7838fffe9127\#ca914ef624ecf39a75ed7afef10e7838fffe9127
+		yaml-rust-0.4.5
 
 CARGO_BUILD=	no
 CARGO_INSTALL=	no
